@@ -1,0 +1,7 @@
+welcome.welcome:
+    path: '/welcome/one'
+    defaults:
+        _controller: '\Drupal\welcome\Controller\WelcomeController::welcome'
+        _title: 'Welcome to Site One'
+    requirements: 
+        _permission: 'access content'
